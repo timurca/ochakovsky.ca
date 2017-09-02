@@ -1,1 +1,1 @@
-$(document).ready(function(){baguetteBox.run(".gallery")});
+$(document).ready(function(){function e(){$(".arrow").removeClass("hidden")}baguetteBox.run(".gallery"),setTimeout(e,4e3)}),$(".post").addClass("hidden").viewportChecker({classToAdd:"visible animated bounceInLeft",offset:100});
