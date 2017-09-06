@@ -1,0 +1,86 @@
+/* XX-DESKTOP ***********************************************************************************************************************************************************************************************/
+@media only screen and (min-width: 1900px) {
+  .imge {
+    width: 100%;
+    height: 280px; }
+  .element-item {
+  width: 14%;
+  margin: 1.33%;
+  }
+  .abme { top:100px; }
+ }
+
+@media only screen and (min-width: 1600px) and (max-width: 1899px) {
+  .imge {
+    width: 100%;
+    height: 280px; }
+  .element-item {
+    width: 18%;
+  }
+  .abme { top:100px; }
+}
+
+/* DESKTOP ***********************************************************************************************************************************************************************************************/
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .imge {
+    width: 100%;
+    height: 280px; }
+    .abme { top:100px; }
+ }
+
+/* MINI_DESKTOP ***********************************************************************************************************************************************************************************************/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .imge {
+    width: 100%;
+    height: 280px; }
+  .element-item {
+    width: 31.33%;
+  }
+  .abme { top:100px; }
+}
+
+/* TABLET ***********************************************************************************************************************************************************************************************/
+@media only screen and (min-width: 650px) and (max-width: 991px) {
+  .imge {
+    width: 100%;
+    height: 280px; }
+  .element-item {
+    width: 48%;
+  }
+  .parallax { border: 0;}
+  .abme { top:-10px; font-size:17px; }
+}
+
+@media only screen and (min-width: 484px) and (max-width: 650px) {
+  .imge {
+    width: 100%;
+    height: 280px; }
+  .element-item {
+    width: 74%;
+    margin: 13%;
+  }
+  .parallax { border: 0; }
+  .div1 { display:block; position:relative; width:50%; width: calc(100% - 20%);}
+  .div2 { display:none;}
+  .abme { display:block; position:relative; width:100%; right:0; padding:10%; top:0px; font-size:16px;}
+
+}
+/* MOBILE ***********************************************************************************************************************************************************************************************/
+@media only screen and (max-width: 484px) {
+  .imge {
+    width: 100%;
+    height: 280px; }
+  .button {
+    width: 100%;
+    margin: 0 auto; }
+  .element-item {
+    width: 98%;
+  }
+  .parallax { border: 0;}
+  .div1 { display:block; position:relative; width:100%; width: calc(100% - 10%);}
+  .abme { display:block; position:relative; width:100%; top:0; right:0; padding:5%; font-size: calc(16px - 0.1vw); }
+  .div2 { display:none;}
+  .div3 { width:100%;}
+  
+  .div5.floatLeft { display: none; }
+ }

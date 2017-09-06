@@ -173,12 +173,23 @@ box-shadow: 10px 13px 60px -12px rgba(0,0,0,0.48);
   --------------------------------------------- */
 
   #group1 {
-    z-index: 5; /* slide over group 2 */
+    z-index: 5;
+   /* slide over group 2 */
   }
-  #group1 .parallax__layer--base {
-    background: rgb(102,204,102);
-    background-image: url("../images/painting_13.jpg");
-    background-size: cover; 
+
+  .cover_img { background: #66cc66;
+      background-image: url("../images/painting_13s.jpg");
+      background-size: cover;  
+      width:100%;
+      height:100%;
+      -webkit-filter: blur(20px);
+      filter: blur(20px);
+      transition: -webkit-filter 1s;
+  }  
+
+  .hide-blur{
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
   }
 
   #group2 {
